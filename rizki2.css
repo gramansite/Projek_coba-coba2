@@ -137,10 +137,9 @@ header {
   padding-right: 7px;
 }
 .header-right a {
-  border-bottom: 2px solid red;
   font-weight: bold;
   text-transform: capitalize;
-  line-height: 35px;
+  margin-top: 10px;
   padding: 0 25px 10px 25px;
   color: white;
   display: block;
@@ -148,8 +147,14 @@ header {
   transition: all 0.5s;
 }
 
-.header-right a:hover {
+.header-right:hover {
   background-color: rgba(255, 255, 255, 0.3);
+  padding: 14.5px;
+  border-radius: 10px;
+  margin-top: -20px;
+}
+.header-right a:hover {
+  color: rgb(12, 174, 214);
 }
 
 .lesson-wrapper {
