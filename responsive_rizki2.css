@@ -1,65 +1,94 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
-    .top-wrapper h1{
-      font-size:32px;
-    }
-    .heading h2{
-      font-size:20px;
-    }
-    .lesson{
-      width:50%;
-      margin-bottom:50px;
-    }
+  .top-wrapper h1 {
+    font-size: 32px;
   }
-  
-  /* Untuk Smartphone */
-  @media all and (max-width: 670px) {
-    .header-right {
-      display: none;
-    }
-    .lesson{
-      width:100%;
-    }
-    .menu-icon {
-      display: block;
-      font-size:21px;
-    }
-    .top-wrapper h1{
-      font-size:24px;
-      line-height:36px;
-    }
-    .top-wrapper{
-      text-align:left;
-    }
-    .top-wrapper p{
-      font-size:14px;
-      line-height:20px;
-    }
-    .facebook{
-      margin-bottom:10px;
-    }
-    .btn{
-      width:100%;
-    }
-    .heading h2{
-      margin-bottom:10px;
-    }
-    .ja{
-      border-bottom:4px solid yellow;
-      padding:2px;
-      transition:all 0.8s ease;
-      border-radius:4px;
-      cursor:default;
-    }
-    .ja:hover{
-      background-color:yellow;
-      padding:2px;
-      border-radius:4px;
-    }
-    .message{
-      width:100%;
-    }
-    footer{
-      text-align:center;
-    }
+  .heading h2 {
+    font-size: 20px;
   }
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+}
+
+/* Untuk Smartphone */
+@media (max-width: 767px) {
+  .header-right {
+    display: none;
+  }
+  .lesson {
+    width: 100%;
+  }
+  .menu-icon {
+    color: white;
+    float: right;
+    font-size: 30px;
+    padding: 15px;
+  }
+  .menu-icon:active .header-right,
+  .header-right a {
+    background-color: black;
+    display: block;
+    float: none;
+    padding-right: 20px;
+  }
+  .menu-icon:active {
+    text-align: right;
+    background-color: black;
+    margin-right: -15px;
+    border-radius: 10px;
+  }
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .top-wrapper {
+    text-align: left;
+  }
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .facebook {
+    margin-bottom: 10px;
+  }
+  .btn {
+    width: 100%;
+  }
+  .heading h2 {
+    margin-bottom: 10px;
+  }
+  .ja {
+    border-bottom: 4px solid yellow;
+    padding: 2px;
+    transition: all 0.8s ease;
+    border-radius: 4px;
+    cursor: default;
+  }
+  .ja:hover {
+    background-color: yellow;
+    padding: 2px;
+    border-radius: 4px;
+  }
+  .message {
+    width: 100%;
+  }
+  footer {
+    text-align: center;
+  }
+}
+@media (max-width: 486px) {
+  .muriz {
+    font-size: 30px;
+    box-shadow: none;
+  }
+}
+@media (max-width: 354px) {
+  .muriz {
+    font-size: 20px;
+  }
+  .header-right a {
+    font-size: 15px;
+  }
+}
