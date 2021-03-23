@@ -128,28 +128,6 @@ header {
 .header-left {
   float: left;
 }
-
-.header-right {
-  float: right;
-  margin-right: -25px;
-}
-.login {
-  padding-right: 7px;
-}
-.header-right a {
-  font-weight: bold;
-  text-transform: capitalize;
-  margin-top: 10px;
-  padding: 0 25px 10px 25px;
-  color: white;
-  display: block;
-  float: left;
-  transition: all 0.5s;
-}
-.header-right a:hover {
-  color: rgb(12, 174, 214);
-}
-
 .lesson-wrapper {
   padding-bottom: 80px;
   padding-left: 5%;
@@ -229,5 +207,53 @@ footer {
   padding-bottom: 20px;
   background-color: black;
 }
-
-/* Ketik code Anda dibawah */
+/* Clearfix  Menu*/
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+}
+/* Menu*/
+nav {
+  float: right;
+  height: 65px;
+  width: 415px;
+  padding: 10px;
+  font-size: 12pt;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-weight: bold;
+  position: relative;
+}
+nav ul {
+  padding: 0;
+  margin: 0 auto;
+  width: 500px;
+  height: 40px;
+}
+nav li {
+  display: inline;
+  float: left;
+  margin-right: 4px;
+}
+nav a {
+  color: #ffffff;
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 40px;
+}
+nav a:hover,
+nav a:active {
+  background-color: #ecf0f1;
+  color: #333;
+}
+nav a#pull {
+  display: none;
+}

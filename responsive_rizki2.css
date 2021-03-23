@@ -10,38 +10,15 @@
     width: 50%;
     margin-bottom: 50px;
   }
-  .icon {
-    display: block;
-    float: left;
-  }
 }
 
 /* Untuk Smartphone */
 @media (max-width: 767px) {
-  .header-right {
-    display: none;
+  .muriz:hover {
+    transform: none;
   }
   .lesson {
     width: 100%;
-  }
-  .menu-icon {
-    color: white;
-    float: right;
-    font-size: 30px;
-    padding: 15px;
-  }
-  .menu-icon:focus-within .header-right,
-  .header-right a {
-    background-color: black;
-    display: block;
-    float: none;
-    padding-right: 20px;
-  }
-  .menu-icon:focus {
-    text-align: right;
-    background-color: black;
-    margin-right: -15px;
-    border-radius: 10px;
   }
   .top-wrapper h1 {
     font-size: 24px;
@@ -81,18 +58,91 @@
   footer {
     text-align: center;
   }
+  /* Menu */
+  nav {
+    height: auto;
+    border-bottom: 0;
+    margin-right: -25px;
+  }
+  nav ul {
+    width: 100%;
+    display: none;
+    height: auto;
+    margin-top: 55px;
+  }
+  nav li {
+    width: 100%;
+    float: none;
+    display: block;
+    background: #ffffff;
+  }
+  nav li a {
+    border-bottom: 1px solid #f0f0f0;
+    border-right: 1px solid #f0f0f0;
+    padding-left: 5px;
+  }
+  nav li a:hover {
+    background-color: rgba(34, 49, 52, 0.9);
+    color: white;
+  }
+  nav a {
+    text-align: left;
+    width: 100%;
+    text-indent: 25px;
+    color: #333333;
+  }
+  nav a#pull {
+    display: block;
+    width: 100%;
+    position: relative;
+    color: #ffffff;
+  }
+  nav a#pull:after {
+    content: "";
+    background: url("img/nav-icon.png ") no-repeat;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+  }
 }
-@media (max-width: 486px) {
+@media (max-width: 699px) {
+  nav a#pull {
+    margin-top: -65px;
+  }
+  nav ul {
+    width: 200px;
+    margin-right: 0;
+  }
+}
+@media (max-width: 416px) {
+  nav a#pull {
+    margin-top: -60px;
+  }
   .muriz {
-    font-size: 30px;
+    margin-top: 7px;
+    font-size: 18px;
+    margin-left: -20px;
     box-shadow: none;
+  }
+  .muriz:hover {
+    transform: none;
   }
 }
 @media (max-width: 354px) {
   .muriz {
     font-size: 20px;
+    padding-top: 19px;
   }
-  .header-right a {
+}
+@media (max-width: 276px) {
+  .muriz {
     font-size: 15px;
+    padding-top: 25px;
+  }
+  .muriz:hover {
+    transform: none;
   }
 }
