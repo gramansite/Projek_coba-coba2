@@ -24,13 +24,6 @@ div {
 body {
   font-family: "Lucida Grande";
 }
-.logo {
-  border-radius: 10px;
-  width: 40px;
-  position: relative;
-  height: 55px;
-  top: -15px;
-}
 a {
   text-decoration: none;
 }
@@ -119,10 +112,6 @@ header {
 }
 .muriz:hover {
   transform: translate(10%, 0);
-}
-.logo {
-  width: 124px;
-  margin-top: 20px;
 }
 
 .header-left {
