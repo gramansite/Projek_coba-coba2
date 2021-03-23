@@ -146,13 +146,6 @@ header {
   float: left;
   transition: all 0.5s;
 }
-
-.header-right:hover {
-  background-color: rgba(255, 255, 255, 0.3);
-  padding: 14.5px;
-  border-radius: 10px;
-  margin-top: -20px;
-}
 .header-right a:hover {
   color: rgb(12, 174, 214);
 }
